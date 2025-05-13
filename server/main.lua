@@ -1,4 +1,5 @@
-ESX              = nil
+-- ESX              = nil
+ESX              = exports['es_extended']:getSharedObject()
 local Categories = {}
 local Vehicles   = {}
 
